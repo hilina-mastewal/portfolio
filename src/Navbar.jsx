@@ -1,6 +1,5 @@
 import {Link} from "react-router-dom";
-import { BiAdjust } from "react-icons/bi";
-import { AiOutlineDingtalk } from "react-icons/ai";
+import { GiFairyWings } from "react-icons/gi";
 import { BsListUl } from "react-icons/bs";
 import { useState } from "react";
 function Navbar() {
@@ -17,29 +16,24 @@ const handleclick = () => {
     }
   };
 
- const handleMode = () => {
-    const menues = document.getElementByclass("mode");
-    if (menues.classList.contains("dark")) {
-      menues.classList.remove("dark");
-
-    }
-    else{
-      menues.classList.add("dark")
+ const handleNav = () => {
+   const menues = document.getElementById("menu");
+    if (menues.classList.contains("flex")) {
+       menues.classList.remove("flex");
+      menues.classList.add("hidden");
     }
   };
 
-    return ( <div className={`${mode? 'dark':''} dark:bg-red-400  w-full h-16 bg-[#0f1b34] flex justify-between items-center absolute top-0 z-[1]`} >
-<div className=" pl-36 text-[#5df2f2] text-[18px] flex items-center"><AiOutlineDingtalk className="animate-waving-hands " size="40"/>Hili<AiOutlineDingtalk className="animate-waving-hands " size="30"/></div>
+    return ( <div className=" w-full h-10 md:py-5 bg-[#0f1b34] flex justify-between items-center absolute top-0 z-[10]" >
+<div className="  text-[#5df2f2] text-[18px] flex items-center"><GiFairyWings className="mx-2 text-lg md:text-2xl "  />Hili</div>
 <div id="menu"
         className={
-          "gap-6   justify-between items-center absolute flex-col md:flex-row  hidden md:relative md:top-0 md:right-10   md:flex  top-20 right-10"
+          "gap-6  w-40 md:w-auto bg-[#0f1b34] md:justify-between items-center absolute flex-col md:flex-row top-10 hidden md:relative md:top-0 md:right-10   md:flex   right-1"
         }>
-<Link className="Navbar" to="/">Home</Link>
-<Link className="Navbar"  to='/About'>About</Link> 
-<Link  className="Navbar" to='/Service' >Service</Link>
-<Link className="Navbar" to='/Portfolio' >Portfolio</Link>
-<Link className="Navbar" to='/Contact' >Contact</Link>
-<button onClick={()=> setMode((prev)=> !prev )} ><BiAdjust size="30" className="text-white"/></button >
+<Link className="Navbar" to="/"  onClick={handleNav}>Home</Link>
+<Link className="Navbar"  to='/About'  onClick={handleNav}>About</Link> 
+<Link  className="Navbar" to='/Service'  onClick={handleNav}>Service</Link>
+<Link className="Navbar" to='/Contact'  onClick={handleNav} >Contact</Link>
 
 </div>
 <button className="md:hidden text-white absolute right-14 " onClick={handleclick}>

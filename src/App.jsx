@@ -18,7 +18,7 @@ function App() {
   
   return (
      <Router>
-    <div  className=' h-screen w-screen '>
+    <div  className=' h-full w-full overflow-y-scroll '>
     <Navbar/>
     <Sidebar/>
       <Switch>

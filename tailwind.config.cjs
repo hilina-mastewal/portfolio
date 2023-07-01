@@ -16,6 +16,11 @@ module.exports = {
           "100%": { transform: "rotate(0.0deg)" },
         },
       },
+      screens: {
+        md: "1000px",
+        xs: "700px",
+        sm: "300px",
+      },
       animation: {
         "waving-hand": "wave 1s linear infinite",
         "waving-hands": "wave 3s linear infinite",

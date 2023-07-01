@@ -25,10 +25,10 @@
 }
 .contactlist {
 
-    @apply  text-3xl text-white font-thin
+    @apply  text-xl xs:text-4xl md:text-xl font-thin
 }
 
 .contactlistname {
 
-    @apply absolute left-32  text-2xl text-[#b8bed8] mt-2 font-thin
+    @apply   text-lg text-[#b8bed8] mt-2 font-thin
 }
