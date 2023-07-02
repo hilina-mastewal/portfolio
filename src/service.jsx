@@ -12,11 +12,7 @@ const  Service=()=> {
     <div className="text-sm xs:text-lg font-light flex flex-col md:gap-5 text-[#80b3cb] tracking-wider w-full px-1 md:w-[85%]"> 
     <div className=" xs:text-6xl hidden md:flex text-lg font-medium  justify-center items-start  text-[#d8dffe] md:pt-7 ">What I do</div>  
     <p className='text-sm sm:text-base xs:text-2xl'>
-  My favorite language is javascript.There is also the server/client version of TicTacToe which allows
-  multiple users to play with a single server.I can code in Python and C++ moderatley well. 
-  The best project i have to illustrate my C++ skills is the Hospital app. It uses the console 
-  to print out a 'menu' for the user and the user can choose what to do. There are more than 15 methods
-  working with one another in relation to several global class instance. </p>
+ I possess a strong foundation in HTML, CSS, and JavaScript, which are the core building blocks of web development. Additionally, I have experience working with modern front-end frameworks like React and utilizing CSS frameworks like Tailwind CSS to create visually appealing and responsive web interfaces. </p>
     </div> 
     <div className="w-[80%]  py-20 pt-7 md:pt-0 grid grid-cols-2 sm:grid-cols-3 xs:grid-cols-4 gap-9  md:gap-3 ">
       

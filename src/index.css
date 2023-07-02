@@ -9,7 +9,7 @@
 }
 .Navbar{
 @apply text-white border-transparent border-b-2 hover:border-[#5df2f2] 
- px-3 py-2 text-sm font-medium uppercase
+ px-3 py-2  font-medium uppercase
 
 }
 .button{

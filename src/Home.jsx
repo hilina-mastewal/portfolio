@@ -8,8 +8,7 @@ const  Home=()=> {
   <div className=" text-3xl  sm:text-[45px] md:text-6xl font-bold text-[#d8dffe] ">Hilina Mastewal</div>
   <div className=" md:text-6xl xs:text-5xl text-2xl font-bold  items-center text-[#80b3cb] ">I build things for the web</div>
   <div className="flex flex-col gap-10">
-   <div className=" text-sm  xs:text-2xl md:text-xl font-thin text-[#80b3cb]   ">I am computer science student.I currently learning  at hilcoe(school of science and technology). Im
-    focused on building accessible human centered product  at upstatement
+   <div className=" text-sm  xs:text-2xl md:text-xl font-thin text-[#80b3cb]   ">I am a dedicated freelancer with expertise in web development, specializing in creating dynamic and responsive website.  I strive to deliver exceptional results that meet my clients' unique needs and exceed their expectations.
    </div>
    <div><Link  to='/Contact' className="button text-xs xs:text-lg font-bold   px-20  ">Contact me</Link></div></div>
     </div>

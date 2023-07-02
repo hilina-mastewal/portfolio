@@ -2,8 +2,8 @@ const  About=()=> {
  
   return (
     <div className=" bg-[#0f1b34]  flex flex-col md:flex-row items-center justify-center absolute top-10 w-full  h-full dark:bg-slate-100 overflow-y-scroll">
-      <div className="md:w-[50%] xssm:h-[35%]  h-[35%]  xs:h-auto w-[85%] flex  justify-center items-start hover:scale-105 duration-150">
-        <div className="flex  justify-start xssm:justify-center items-start gap-5 md:gap-0 mt-5  relative ">
+      <div className="md:w-[40%] xssm:h-[35%]  h-[30%]  xs:h-auto w-[85%] flex  justify-start md:items-center  items-start hover:scale-105 duration-150">
+        <div className="flex  justify-start xssm:justify-center items-start gap-5 md:gap-0 mt-5 0 relative ">
          <div className="xs:w-10 xs:h-10 w-5 h-5 border-[#98f4f4]   xs:border-l-[6px] border-l-[3px] border-t-[3px] xs:border-t-[6px] left-0 top-0  hover:scale-105 hover:duration-200 "></div>
     <img
         src="/image/Mypic2-removebg-preview.png"
@@ -14,12 +14,8 @@ const  About=()=> {
         </div>
   <div className=" md:w-[50%] md:h-auto flex flex-col justify-center items-center   md:py-28  md:items-start xssm:gap-10 gap-3 ">
 <div className=" text-3xl xs:text-5xl md:text-5xl  font-bold text-[#d8dffe]   ">About Me</div>
-<div className="xs:text-xl flex items-center justify-center  text-xs font-light text-[#80b3cb] space-x-2 px-2 md:ml-0 w-11/12 md:w-4/5 ">I am a Computer Science student from Addis Ababa, Ethiopia
-  I am currently a senior at Hilcoe School of computer science and
-  technology.I have taken classes realted to object oriented programming
-   data structures and algorithms, windows programming,object oreiented
-    software engineering and database.My favorite language is web developmnet.
-    I can also make websites using HTML/CSS/JavaScript and React as frontend
+<div className="xs:text-xl flex items-center justify-center  text-xs font-light text-[#80b3cb] space-x-2 px-2 md:ml-0 w-11/12 md:w-4/5 ">
+I am  a senior student at HilCoE (School of computer science an dtechnoloy), I have gained valuable knowledge and experience in various subjects related to my field of study. Additionally, I work as a freelance web designer. While being proficient in my current skill set, I am always eager to expand my horizons and learn new technologies and techniques that can enhance my capabilities as a web designer. I believe in continuously improving myself and staying up-to-date with the latest trends and advancements in the industry to provide the best solutions to my clients.
   </div>
   <div className="xs:text-2xl text-sm font-light  flex flex-col text-[#80b3cb] space-x-2 w-4/5 ">
     <div className="flex gap-5">  <p className="text-white pl-2">Birthday</p> <p className="text-[0.8rem] xs:text-xl">April 21 200</p> </div>

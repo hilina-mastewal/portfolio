@@ -41,7 +41,7 @@ const  Contact=()=> {
 
     <div className=" xs:text-5xl text-3xl  md:text-3xl font-light text-[#d8dffe] mt-[15%] xs:mt-10 ">Contact Info</div>
     <div className=" xs:text-2xl md:text-2xl mt-6 text-base px-1  font-thin   text-[#80b3cb] xs::w-3/4">  If you would like  me to work for your company or you want me 
-   to make you a website ,please put your name, email address and your message.Then i will get back to you within three days.
+   to make you a website ,please put your name, email address and your message.Then i will get back to you within few days.
    </div></div>
    <div className="flex flex-col   md:mt-10  text-[#b8bed8] text-xl ">
     <div className="flex gap-1 xs:text-2xl">
