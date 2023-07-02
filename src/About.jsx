@@ -2,7 +2,7 @@ const  About=()=> {
  
   return (
     <div className=" bg-[#0f1b34]  flex flex-col md:flex-row items-center justify-center absolute top-10 w-full  h-full dark:bg-slate-100 overflow-y-scroll">
-      <div className="md:w-[50%] xssm:h-[35%]  h-[35%]  xs:h-auto w-[85%] flex  justify-start items-start hover:scale-105 duration-150">
+      <div className="md:w-[50%] xssm:h-[35%]  h-[35%]  xs:h-auto w-[85%] flex  justify-center items-start hover:scale-105 duration-150">
         <div className="flex  justify-start xssm:justify-center items-start gap-5 md:gap-0 mt-5  relative ">
          <div className="xs:w-10 xs:h-10 w-5 h-5 border-[#98f4f4]   xs:border-l-[6px] border-l-[3px] border-t-[3px] xs:border-t-[6px] left-0 top-0  hover:scale-105 hover:duration-200 "></div>
     <img
@@ -29,7 +29,7 @@ const  About=()=> {
  
   </div>
   
-  <a href="myResume.docx" className="button flex items-center justify-center xs:text-sm text-xs xs:w-1/3  w-6/12 md:w-auto md:px-10">DownLoad Resume</a>
+  <a href="hilinasResume.pdf" className="button flex items-center justify-center xs:text-sm text-xs xs:w-1/3  w-6/12 md:w-auto md:px-10">DownLoad Resume</a>
  
    </div>
 
