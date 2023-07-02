@@ -6,12 +6,12 @@ const  Service=()=> {
   return (
     <div className=" bg-[#0f1b34] absolute text-white top-10  justify-start items-start md:pt-0 pt-7 xs:pt-32 gap-8 md:justify-center md:items-start flex flex-col md:flex-row  overflow-y-scroll md:left-16 w-full  h-full">
   <div className=" md:w-[10%] md:h-full flex justify-start  items-center ">
-     <div className=" text-4xl xs:text-5xl xs:font-medium text-[#d8dffe] md:pt-20 md:-rotate-90 ">My  Skills</div> 
+     <div className=" text-4xl xs:text-4xl xs:font-medium text-[#d8dffe] sm:pt-10 md:pt-20 md:-rotate-90 ">My  Skills</div> 
      </div>
      <div className="md:w-10/12 w-full flex flex-col justify-center items-center">
     <div className="text-sm xs:text-lg font-light flex flex-col md:gap-5 text-[#80b3cb] tracking-wider w-full px-1 md:w-[85%]"> 
     <div className=" xs:text-6xl hidden md:flex text-lg font-medium  justify-center items-start  text-[#d8dffe] md:pt-7 ">What I do</div>  
-    <p className='text-sm xs:text-2xl'>
+    <p className='text-sm sm:text-base xs:text-2xl'>
   My favorite language is javascript.There is also the server/client version of TicTacToe which allows
   multiple users to play with a single server.I can code in Python and C++ moderatley well. 
   The best project i have to illustrate my C++ skills is the Hospital app. It uses the console 

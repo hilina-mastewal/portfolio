@@ -20,6 +20,8 @@ module.exports = {
         md: "1000px",
         xs: "700px",
         sm: "300px",
+        sm1: "390px",
+        xssm: "500px",
       },
       animation: {
         "waving-hand": "wave 1s linear infinite",
