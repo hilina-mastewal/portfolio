@@ -22,7 +22,7 @@ const  Contact=()=> {
   };
   return (
     <div className="bg-[#0f1b34] flex  flex-col gap-10 md:flex-row items-start justify-around w-full absolute top-10  md:left-6 h-full  overflow-y-scroll">
-  <div className="md:w-[55%]  h-1/4 xs:mt-10 md:h-full md:mt-20  flex flex-col xs:pt-[6%] md:pt-0 md:items-start gap-5 md:pl-20  pl-4">
+  <div className="md:w-[55%]  h-1/4 xs:mt-10 md:h-full md:mt-20  flex flex-col xs:pt-[6%] md:pt-0 md:items-start gap-5 px-2 md:pl-20  pl-4">
      <div>
 
     <div className=" xs:text-5xl text-3xl  md:text-3xl font-light text-[#d8dffe] mt-5 xs:mt-10 ">Contact Info</div>
