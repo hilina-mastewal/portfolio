@@ -4,7 +4,7 @@ import{SiHtml5,SiCss3 , SiTailwindcss,SiJavascript,SiMongodb ,SiCplusplus,SiReac
 const  Service=()=> {
  
   return (
-    <div className=" bg-[#0f1b34] absolute text-white top-10  justify-start items-start md:pt-0 pt-7 xs:pt-32 gap-8 md:justify-center md:items-start flex flex-col md:flex-row  overflow-y-scroll md:left-16 w-full  h-full">
+    <div className=" bg-[#0f1b34] absolute text-white top-10  justify-start items-start md:pt-0 pt-7 px-3 xs:px-0 xs:pt-32 gap-8 md:justify-center md:items-start flex flex-col md:flex-row  overflow-y-scroll md:left-16 w-full  h-full">
   <div className=" md:w-[10%] md:h-full flex justify-start  items-center ">
      <div className=" text-4xl xs:text-4xl xs:font-medium text-[#d8dffe] sm:pt-10 md:pt-20 md:-rotate-90 ">My  Skills</div> 
      </div>
